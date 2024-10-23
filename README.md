@@ -6,6 +6,8 @@ conda install anaconda::cudnn   # 9.1.1
 pip install onnxruntime-gpu     # 1.19
 pip3 install opencv-python
 ```
+### reference
+https://github.com/ibaiGorordo/ONNX-YOLOv10-Object-Detection
 
 
 
