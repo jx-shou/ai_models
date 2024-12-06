@@ -37,10 +37,9 @@ model.set_classes(['box on hands'])
 model.export(format="onnx", imgsz=320)
 
 ### example
-# ### example
-# model = YOLOWorld('yolov8m-worldv2_1x3x320x320_box.onnx')
-# img = cv2.imread('./data/vis_frame_5m_obj_320x320.png')
-# results = model(img)
+model = YOLOWorld('yolov8m-worldv2_1x3x320x320_box.onnx')
+img = cv2.imread('./data/vis_frame_5m_obj_320x320.png')
+results = model(img)
 ```
 
 ### reference
