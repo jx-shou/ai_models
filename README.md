@@ -27,6 +27,18 @@ for frame in video:
 ### reference
 https://github.com/kadirnar/bytetrack-pip
 
+### YOLO v8 World
+### usage
+```python
+### get custom model
+from ultralytics import YOLOWorld
+model = YOLOWorld("yolov8m-worldv2.pt")
+model.set_classes(['box on hands'])
+model.export(format="onnx", imgsz=320)
+```
+
+### reference
+https://github.com/ibaiGorordo/ONNX-YOLO-World-Open-Vocabulary-Object-Detection/tree/main
 
 
 
