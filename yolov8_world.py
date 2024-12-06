@@ -166,7 +166,7 @@ class YOLOWorld:
 
 # ### get custom model
 # from ultralytics import YOLOWorld
-# model = YOLOWorld("yolov8m-worldv2.pt")  # or select yolov8m/l-world.pt for different sizes
+# model = YOLOWorld("yolov8m-worldv2.pt")
 # model.set_classes(['box on hands'])
 # model.export(format="onnx", imgsz=320)
 
